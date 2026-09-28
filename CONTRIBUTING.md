@@ -12,6 +12,7 @@ Chào mừng bạn đã đến với dự án! Chúng tôi rất hào hứng khi
 4. Commit mã nguồn theo chuẩn Conventional Commits (Ví dụ: feat(core): add json support).
 5. Đẩy nhánh lên GitHub của bạn và mở một Pull Request (PR) hướng về nhánh main của kho gốc.
 ## 🎨 Quy chuẩn viết code (Coding Standards)
-- Ngôn ngữ C: Thụt lề bằng 4 khoảng trắng (Spaces), tuyệt đối không dùng phím Tab.
-- Đặt tên biến: Sử dụng chuẩn snake_case (Ví dụ: user_id, max_length).
-- Mọi hàm mới bổ sung bắt buộc phải có comment đặc tả giải thích ở file header.
+- Ngôn ngữ Python: Thụt lề bằng 4 khoảng trắng (Spaces), tuyệt đối không dùng phím Tab.
+- Đặt tên biến và hàm: Sử dụng chuẩn snake_case (Ví dụ: user_id, max_length). Tên class dùng PascalCase (Ví dụ: UserProfile).
+- Mọi hàm mới bổ sung bắt buộc phải có docstring mô tả chức năng, tham số và giá trị trả về.
+- Mỗi dòng code không dài quá 79 ký tự, tuân theo hướng dẫn PEP 8.
